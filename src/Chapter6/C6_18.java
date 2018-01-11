@@ -16,7 +16,6 @@ public class C6_18 {
      * @param args arguments from the command line prompt
      */
     public static void main(String[] args) {
-        System.out.println("");
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter a password: ");
         String password = input.next();
