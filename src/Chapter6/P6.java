@@ -16,6 +16,7 @@ public class P6 {
      * @param args arguments from the command line prompt
      */
     public static void main(String[] args) {
+        System.out.println("");
         Scanner input = new Scanner(System.in);
         System.out.println("How many Euros will a dollar buy?");
         double euroConv = input.nextDouble();
