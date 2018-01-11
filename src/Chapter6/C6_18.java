@@ -25,8 +25,13 @@ public class C6_18 {
             System.out.println("Password is invalid");
         }
     }
-
-    public static Boolean test1(String password) {
+    /**
+     * Method to test if there are at least 8 characters
+     * 
+     * @param password the password string
+     * @return true/false whether the password passes the test
+     */
+    public static boolean test1(String password) {
         if (password.length() >= 8) {
             return true;
         } else {
@@ -34,8 +39,13 @@ public class C6_18 {
             return false;
         }
     }
-
-    public static Boolean test2(String password) {
+    /**
+     * Method to test if the password consists only of letters and digits
+     * 
+     * @param password the password string
+     * @return true/false whether the password passes the test
+     */
+    public static boolean test2(String password) {
         int digCount = 0, letCount = 0;
         for (char c : password.toCharArray()) {
             if (Character.isDigit(c) == true) {
@@ -52,8 +62,13 @@ public class C6_18 {
             return false;
         }
     }
-
-    public static Boolean test3(String password) {
+    /**
+     * Method that tests if the password consists of at least two digits
+     * 
+     * @param password the password string
+     * @return true/false whether the password passes the test
+     */
+    public static boolean test3(String password) {
         int counter = 0;
         for (char c : password.toCharArray()) {
             if (Character.isDigit(c)) {
