@@ -86,4 +86,5 @@ public class P6 {
         double total = dollar * convFactor;
         return total;
     }
+    //
 }
