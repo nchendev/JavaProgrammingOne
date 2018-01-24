@@ -25,9 +25,10 @@ public class C6_18 {
             System.out.println("Password is invalid");
         }
     }
+
     /**
      * Method to test if there are at least 8 characters
-     * 
+     *
      * @param password the password string
      * @return true/false whether the password passes the test
      */
@@ -39,9 +40,10 @@ public class C6_18 {
             return false;
         }
     }
+
     /**
      * Method to test if the password consists only of letters and digits
-     * 
+     *
      * @param password the password string
      * @return true/false whether the password passes the test
      */
@@ -62,9 +64,10 @@ public class C6_18 {
             return false;
         }
     }
+
     /**
      * Method that tests if the password consists of at least two digits
-     * 
+     *
      * @param password the password string
      * @return true/false whether the password passes the test
      */

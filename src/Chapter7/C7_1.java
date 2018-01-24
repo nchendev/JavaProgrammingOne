@@ -1,11 +1,12 @@
+package Chapter7;
+
+import java.util.Scanner;
 
 /**
  * Program that assigns students a grade based on their scores
  *
  * @author Nick Chen
  */
-import java.util.Scanner;
-
 public class C7_1 {
 
     /**

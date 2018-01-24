@@ -1,11 +1,12 @@
+package Chapter8;
+
+import java.util.Scanner;
 
 /**
  * Program that prints out an array
  *
  * @author Nick Chen
  */
-import java.util.Scanner;
-
 public class C8_4 {
 
     /**
