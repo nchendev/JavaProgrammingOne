@@ -1,12 +1,13 @@
+package Chapter7;
+
+import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * Program that checks for the average value within an array of numbers
  *
  * @author Nick Chen
  */
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class P7 {
 
     /**
@@ -50,7 +51,7 @@ public class P7 {
      * Method that calculates the average value within an array
      *
      * @param array1 the array used by the method
-     * @return
+     * @return the average value of the array
      */
     public static double arrayAvg(double[] array1) {
         double tot = 0;

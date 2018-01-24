@@ -70,11 +70,13 @@ public class P6 {
             }
         }
     }
+
     /**
      * Method that converts dollars into the secondary currency
-     * 
+     *
      * @param dollar the amount of dollars, in double
-     * @param convFactor the conversion rate that depends on which type of currency, in double
+     * @param convFactor the conversion rate that depends on which type of
+     * currency, in double
      * @return the converted currency amount
      */
     public static double Conversion(double dollar, double convFactor) {

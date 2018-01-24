@@ -1,11 +1,12 @@
+package Chapter7;
+
+import java.util.Scanner;
 
 /**
  * Program that finds the minimum number in a number set
  *
  * @author Nick Chen
  */
-import java.util.Scanner;
-
 public class C7_9 {
 
     /**
@@ -30,7 +31,7 @@ public class C7_9 {
      * Method that checks for the minimum value within an array
      *
      * @param values the array used by the method
-     * @return
+     * @return the minimum value within the array
      */
     public static double min(double[] values) {
         double minVal = values[0];

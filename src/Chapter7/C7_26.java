@@ -1,11 +1,12 @@
+package Chapter7;
+
+import java.util.Scanner;
 
 /**
  * Program that compares two lists
  *
  * @author Nick Chen
  */
-import java.util.Scanner;
-
 public class C7_26 {
 
     /**
@@ -45,7 +46,7 @@ public class C7_26 {
      * @param list2 the second array
      * @param l1 number of items within the first array
      * @param l2 number of items within the second array
-     * @return
+     * @return whether the two lists are equal
      */
     public static boolean equals(int[] list1, int[] list2, int l1, int l2) {
         if (l1 != l2) {
